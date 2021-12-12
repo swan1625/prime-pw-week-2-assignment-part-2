@@ -77,7 +77,7 @@ console.log(secret)
 // we set and else if condtional that says if 'isStudent' is false and age is less then 30, console.log will have a message that says "What are your hobbies?"
 // we set and else if condtional that says if 'isStudent' is true, console.log will be "Welcome to Prime!"
 // we set and else conditonal that will take any other information and spit out "How about this weather?"
-// 
+//
 
 //CODE
 /*
@@ -134,13 +134,22 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be blue
 let colorOne = 'red';
+
+// FIX - colorTwo should be Red
 let colorTwo = 'blue';
+
 let mix = true;
 
+
+//FIX - only colorOne is set to purple, both colorOne and colorTwo should set
+// should be colorone, colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
+
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -149,8 +158,11 @@ if (mix === true) {
 
 /*
 let temp = 40;
+
+//FIX - const is not what we want to use here, we want to us let time = 4
 const time = 4;
 
+//FIX - Instructions said if both temp and time not or. replace || with &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -164,6 +176,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+/// FIX - mixed up console.logs , entry should be first and the second else should be no entry
+/// also, i would write the first if statement as (age => minAge) just because it looks better and easier to read :)
 if(minAge <= age) {
   console.log('no entry');
 } else {
